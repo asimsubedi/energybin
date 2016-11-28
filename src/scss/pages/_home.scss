@@ -1,0 +1,10 @@
+/* Carousel Component Style */
+
+.carousel-inner{
+	.item{
+		max-height: 500px;
+		.carousel-caption{
+			background: rgba(0,0,0,0.80);
+		}
+	}
+}

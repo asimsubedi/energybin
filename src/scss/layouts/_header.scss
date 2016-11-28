@@ -1,0 +1,71 @@
+header{
+	.header-info{
+		display: block;
+		padding-top: 20px;
+		text-align: right;
+		li{
+			a{
+				color: $primary;
+				text-decoration: none;
+				line-height: 30px;
+			}
+		}
+		.socialstart{
+			list-style-type: none;
+			li{
+				display: inline-block;
+				a{
+					font-size: 14px;
+					display: inline-block;
+					width: 30px;
+					height: 30px;
+					@include border-radius(50%);
+					color: $white;
+					background: $black;
+					text-align: center;
+					line-height: 30px;
+				}
+			}
+		}
+	}
+}
+// navbar styling
+.navbar.navbar-default{
+	background-color: $primary;
+	border: none;
+	margin-bottom: 0;
+	@include border-radius(0);
+	.navbar-nav{
+		li{
+			a{
+				color: $white;
+			}
+		}
+		.dropdown-menu{
+			background: $primary-darker;
+			border: none;
+			padding: 0;
+			@include border-radius(0);
+			li{
+				a{
+					padding: 10px;
+				}
+			}
+		}
+	}
+}
+.navbar-default .dropdown-menu>li>a:focus,
+.navbar-default .dropdown-menu>li>a:hover{
+	background: $primary;
+	color: $light-grey;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover{
+	background: $primary-darker;
+	color: $light-grey;
+}

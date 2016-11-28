@@ -1,0 +1,63 @@
+body{
+	background-color: $white;
+}
+
+/* Style all links in site */
+a{
+	text-decoration: none;
+	&:hover,
+	&:focus,
+	&:active{
+		color: $primary-dark;
+		text-decoration: none;
+		outline: none;
+		outline-color: transparent;
+		outline-style: none;
+	}
+} 
+/* Main Heading */
+.main-heading{
+	padding: 40px 10px 20px;
+	text-align: center;
+	h1{
+		font-size: 36px;
+		font-weight: 700;
+		color: $primary;
+		margin: 0 auto 20px;
+	}
+	p{
+		font-size: 15px;
+		color: lighten($black, 15%);
+	}
+}
+
+/* Grid-List Row */
+.grid-list-row{
+	.grid-wrapper{
+		background: $light-grey;
+		margin: 20px auto;
+	}
+	.grid-caption{
+		padding: 10px 15px 20px;
+		h2{
+			margin: 0;
+			font-size: 20px;
+			font-weight: 700;
+			a{
+				color: $black;
+			}
+		}
+	}
+}
+/* Minor Link */
+.minor-link{
+	display: inline-block;
+	margin: 3px auto;
+	text-decoration: none;
+	color: lighten($black, 30%);
+} 
+
+.side-bar{
+	padding-top:20px;
+	padding-bottom:20px;
+}
