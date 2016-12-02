@@ -1,8 +1,9 @@
 header{
 	.header-info{
 		display: block;
-		padding-top: 20px;
+		padding-top: 10px;
 		text-align: right;
+
 		li{
 			a{
 				color: $primary;
@@ -10,6 +11,7 @@ header{
 				line-height: 30px;
 			}
 		}
+
 		.socialstart{
 			list-style-type: none;
 			li{
@@ -27,6 +29,26 @@ header{
 				}
 			}
 		}
+
+	}
+
+	.col-sm-4{
+		padding-top: 25px;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+
+		.head-lead{
+			font-weight: 300;
+			font-size: 22px;
+			margin-bottom: -1px;
+		}
+
+		.head-sub-lead{
+			font-size: 12px;
+			font-weight: 600;
+			color: darken($light-grey, 30%);
+		}
+
 	}
 }
 // navbar styling

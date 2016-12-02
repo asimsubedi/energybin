@@ -23,34 +23,71 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-</div>
-<div class="clearfix"></div>
-<!-- Services Listing -->
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="main-heading">
-                <h1>Our Services</h1>
-                <p>We offer Services that are non-environment degradable</p>
-            </div>
-        </div>
-    </div>
-    <div class="row grid-list-row">
-        <?php for ( $i=1; $i<5; $i++){ ?>
-            <div class="col-sm-6 col-md-3">
-                <div class="grid-wrapper">
-                    <div class="grid-image">
-                        <a href=""><img src="assets/dist/img/service<?php echo $i; ?>.jpg" alt="" class="img-responsive"></a>
+    <div class="clearfix"></div>
+    <!-- Services Listing -->
+    <div class="container">
+        <div class="row home-sectional-row">
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="section-holder">
+                    <div class="section-heading">News</div>
+                    <div class="section-image">
+                        <a href=""><img src="assets/dist/img/service1.jpg" class="img-responsive" alt=""></a>
                     </div>
-                    <div class="grid-caption">
-                        <h2><a href="">Bio Gas Plant Installation</a></h2>
+                    <div class="section-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio...</p>
                     </div>
                 </div>
+                <a href="" class="secondary-link">See All</a>
             </div>
-        <?php } ?>
-        <div class="col-sm-12">
-            <a href="service-list.php" class="minor-link pull-right">View All Services +</a>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="section-holder">
+                    <div class="section-heading">Events</div>
+                    <div class="section-image">
+                        <a href=""><img src="assets/dist/img/service1.jpg" class="img-responsive" alt=""></a>
+                    </div>
+                    <div class="section-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio...</p>
+                    </div>
+                </div>
+                <a href="" class="secondary-link">See All</a>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="section-holder">
+                    <div class="section-heading">Energy Bin</div>
+                    <div class="section-image">
+                        <a href=""><img src="assets/dist/img/service1.jpg" class="img-responsive" alt=""></a>
+                    </div>
+                    <div class="section-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio...</p>
+                    </div>
+                </div>
+                <a href="" class="secondary-link">See All</a>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <div class="section-holder">
+                    <div class="section-heading">Waste &amp; it's uses</div>
+                    <div class="section-image">
+                        <a href=""><img src="assets/dist/img/service1.jpg" class="img-responsive" alt=""></a>
+                    </div>
+                    <div class="section-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio...</p>
+                    </div>
+                </div>
+                <a href="" class="secondary-link">See All</a>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p><strong>Raj and Riwaj Supplies Pvt. Ltd. </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam itaque animi, sunt at. Dolores tempora numquam dolor praesentium nostrum earum nisi fuga harum, est deleniti quod, at animi laboriosam explicabo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sunt corrupti ipsam sed, totam itaque ea deserunt distinctio quae, incidunt adipisci debitis odit odio, officia magnam vel? A, nostrum dolores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iure facilis, ullam corporis odio et, esse nihil, ex natus quasi laborum, tempora sed assumenda commodi! In magni saepe veniam unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                <img src="assets/dist/img/slide0.jpg" class="img-responsive text-right pull-right" width="320" alt="">
+
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam itaque animi, sunt at. Dolores tempora numquam dolor praesentium nostrum earum nisi fuga harum, est deleniti quod, at animi laboriosam explicabo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sunt corrupti ipsam sed, totam itaque ea deserunt distinctio quae, incidunt adipisci debitis odit odio, officia magnam vel? A, nostrum dolores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iure facilis, ullam corporis odio et, esse nihil, ex natus quasi laborum, tempora sed assumenda commodi! In magni saepe veniam unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
         </div>
     </div>
+    <?php include_once('includes/include-footer.php'); ?>
 </div>
-<?php include_once('includes/include-footer.php'); ?>

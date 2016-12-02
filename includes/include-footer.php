@@ -1,14 +1,7 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 footer-content">
-					<div class="main-heading">
-						<h1>Energy Bin</h1>
-					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, praesentium blanditiis quam voluptate ipsum quibusdam. Maiores tempora voluptatum quibusdam aperiam esse, dolor officiis dolorum dicta voluptatem, quis eos mollitia sunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, neque, sapiente. Dolor praesentium perspiciatis quo qui, ratione sunt reprehenderit voluptas officia at autem repellat pariatur, nihil. Possimus iusto accusantium et.</p>
-					<a href="">Read More +</a>
-				</div>
-				<div class="col-sm-6 footer-address">
+				<div class="col-sm-12 footer-address">
 					<div class="main-heading">
 						<h1>Contact Us</h1>
 					</div>

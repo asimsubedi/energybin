@@ -1,3 +1,17 @@
+/* Helper Classes */
+.secondary-link{
+	color: lighten($black, 30%);
+	font-size: 13px;
+	display: inline-block;
+
+	&:before{
+		content: "[ ";
+	}
+	&:after{
+		content: " + ]";
+	}
+}
+
 /* Carousel Component Style */
 
 .carousel-inner{
@@ -7,4 +21,53 @@
 			background: rgba(0,0,0,0.80);
 		}
 	}
+
+
+}
+.glyphicon-chevron-left:before{
+	content: " \f104 ";
+	font-family: fontAwesome;
+}
+
+.glyphicon-chevron-right:before{
+	content: " \f105 ";
+	font-family: fontAwesome;
+}
+
+/* home sectional row*/
+.home-sectional-row{
+	margin: 30px auto;
+
+	div[class^="col-"]{
+		padding-left:1px;
+		padding-right:1px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		color: $white;
+
+		.section-holder{
+			background: lighten($black, 15%);
+			margin-bottom: 5px;
+		}
+
+		&:nth-child(-n+2){
+			.section-holder{
+				background: $primary;
+			}
+		}
+
+	}
+
+	.section-heading{
+		font-size: 16px;
+		font-weight: 600;
+		padding: 5px 15px;
+	}
+
+	.section-description{
+		@extend .section-heading;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
 }

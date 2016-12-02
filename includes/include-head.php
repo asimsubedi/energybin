@@ -10,7 +10,7 @@
         <meta name="description" content="CloudAsim">
         <meta name="author" content="Projecto">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="assets/dist/img/favicon.ico">
         <link rel="stylesheet" href="assets/dist/css/main.min.css" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Merriweather:300,400,700">
