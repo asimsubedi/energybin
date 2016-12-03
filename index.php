@@ -6,8 +6,14 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
+            <div class="item">
                 <img src="assets/dist/img/slide0.jpg" alt="slideZero">
+                <div class="carousel-caption">
+                    <h1>Our Path towards Green World</h1>
+                </div>
+            </div>
+            <div class="item active">
+                <img src="assets/dist/img/slide1.jpg" alt="slideZero">
                 <div class="carousel-caption">
                     <h1>Welcome Home Energy Bin</h1>
                 </div>
@@ -43,7 +49,7 @@
                 <div class="section-holder">
                     <div class="section-heading">Events</div>
                     <div class="section-image">
-                        <a href=""><img src="assets/dist/img/service1.jpg" class="img-responsive" alt=""></a>
+                        <a href=""><img src="assets/dist/img/service2.jpg" class="img-responsive" alt=""></a>
                     </div>
                     <div class="section-description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio...</p>
@@ -55,7 +61,7 @@
                 <div class="section-holder">
                     <div class="section-heading">Energy Bin</div>
                     <div class="section-image">
-                        <a href=""><img src="assets/dist/img/service1.jpg" class="img-responsive" alt=""></a>
+                        <a href=""><img src="assets/dist/img/service3.jpg" class="img-responsive" alt=""></a>
                     </div>
                     <div class="section-description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio...</p>
@@ -67,7 +73,7 @@
                 <div class="section-holder">
                     <div class="section-heading">Waste &amp; it's uses</div>
                     <div class="section-image">
-                        <a href=""><img src="assets/dist/img/service1.jpg" class="img-responsive" alt=""></a>
+                        <a href=""><img src="assets/dist/img/service4.jpg" class="img-responsive" alt=""></a>
                     </div>
                     <div class="section-description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas optio...</p>
